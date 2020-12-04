@@ -1,0 +1,410 @@
+body {
+    background-color:#FFFFBE;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+.menu ul {
+    display: inline-flex;
+    margin: 58px;
+}
+
+.menu ul li {
+   font-size: 20px;
+   font-weight: bold;
+   list-style: none;
+   margin: 0 20px;
+   color: #F29F05;
+   cursor: pointer;
+}
+
+.logo img {
+   height: 100px;
+   width: 70px;
+   margin-top: -30px;
+   margin-left: -50px;
+}
+
+
+.overview_box {
+    margin-top: -50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 250px;
+    background-color: #6db2e3;
+}
+.overview-text{
+    width: 50%;
+    float: left;
+}
+.overview-text h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #000000;
+}
+.overview-text p {
+    width: 650px;
+    font-size: 23px;
+    margin: 20px 0 30px 60px;
+    line-height: 25px;
+    color: #000000;
+}
+.overview-button {
+    margin-left: 40px;
+    display: inline-flex;
+}
+.overview-button-inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(#FFFFFF,#FFFFFF), radial-gradient(circle at top left, #F29F05, #7BD2F5);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+    margin-left: 20px;
+}
+.overview-button-inner .fa{
+    padding: 15px 0 0 5px; 
+    font-size: 20px;
+    cursor: pointer;
+}
+small {
+        margin-bottom: 50px;
+        margin-right: auto;
+        cursor: pointer;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        letter-spacing: 3px;
+        }
+.overview-picture {
+    width: 50%;
+    float: right;
+}
+.overview-picture img {
+    max-width: auto;
+    max-height: 200px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+
+.install_box {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 250px;
+    background-color: #deecf5;
+}
+.install-text{
+    width: 50%;
+    float: left;
+}
+.install-text h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #000000;
+}
+.install-text p {
+    width: 650px;
+    font-size: 23px;
+    margin: 20px 0 30px 60px;
+    line-height: 25px;
+    color: #000000;
+}
+.install-button {
+    margin-left: 40px;
+    display: inline-flex;
+}
+.install-button-inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(#FFFFFF,#FFFFFF), radial-gradient(circle at top left, #F29F05, #7BD2F5);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+    margin-left: 10px;
+}
+.install-button-inner .fa{
+    padding: 15px 0 0 5px; 
+    font-size: 20px;
+    cursor: pointer;
+}
+.install-picture {
+    width: 50%;
+    float: right;
+}
+.install-picture img {
+    max-width: auto;
+    max-height: 200px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+
+.command_box {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 250px;
+    background-color: #56bccc;
+    }
+.command-text{
+    width: 50%;
+    float: left;
+    }
+.command-text h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #000000;
+    }
+.command-text p {
+    width: 650px;
+    font-size: 23px;
+    margin: 20px 0 30px 60px;
+    line-height: 25px;
+    color: #000000;
+    }
+.command-button {
+    margin-left: 40px;
+    display: inline-flex;
+    }
+.command-button-inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(#FFFFFF,#FFFFFF), radial-gradient(circle at top left, #F29F05, #7BD2F5);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+    margin-left: 20px;
+    }
+.command-button-inner .fa{
+    padding: 15px 0 0 5px; 
+    font-size: 20px;
+    cursor: pointer;
+    }
+small {
+    margin: 0px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    }
+.command-picture {
+    width: 50%;
+    float: right;
+    }
+.command-picture img {
+    max-width: auto;
+    max-height: 200px;
+    margin-top: 15px;
+    margin-left: 200px;
+    }
+
+
+.conflict_box {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 250px;
+    background-color: #6db2e3;
+    }
+.conflict-text{
+    width: 50%;
+    float: left;
+    }
+.conflict-text h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #000000;
+    }
+.conflict-text p {
+    width: 650px;
+    font-size: 23px;
+    margin: 20px 0 30px 60px;
+    line-height: 25px;
+    color: #000000;
+    }
+.conflict-button {
+    margin-left: 40px;
+    display: inline-flex;
+    }
+.conflict-button-inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(#FFFFFF,#FFFFFF), radial-gradient(circle at top left, #F29F05, #7BD2F5);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+    margin-left: 20px;
+    }
+.conflict-button-inner .fa{
+    padding: 15px 0 0 5px; 
+    font-size: 20px;
+    cursor: pointer;
+    }
+.conflict-picture {
+    width: 50%;
+    float: right;
+    }
+.conflict-picture img {
+    max-width: auto;
+    max-height: 200px;
+    margin-top: 15px;
+    margin-left: 180px;
+    }
+
+
+.branching_box {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 250px;
+    background-color: #deecf5;
+    }
+.branching-text{
+    width: 50%;
+    float: left;
+    }
+.branching-text h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #000000;
+    }
+.branching-text p {
+    width: 650px;
+    font-size: 23px;
+    margin: 20px 0 30px 60px;
+    line-height: 25px;
+    color: #000000;
+    }
+.branching-button {
+    margin-left: 40px;
+    display: inline-flex;
+    }
+.branching-button-inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(#FFFFFF,#FFFFFF), radial-gradient(circle at top left, #F29F05, #7BD2F5);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+    margin-left: 20px;
+    }
+.branching-button-inner .fa{
+    padding: 15px 0 0 5px; 
+    font-size: 20px;
+    cursor: pointer;
+    }
+.branching-picture {
+    width: 50%;
+    float: right;
+    }
+.branching-picture img {
+    max-width: auto;
+    max-height: 250px;
+    margin-top: 15px;
+    margin-left: 200px;
+    }
+
+
+.extra_box {
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 250px;
+    background-color: #73D9CF;
+    }
+.extra-text{
+    width: 50%;
+    float: left;
+    }
+.extra-text h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #000000;
+    }
+.extra-text p {
+    width: 650px;
+    font-size: 23px;
+    margin: 20px 0 30px 60px;
+    line-height: 25px;
+    color: #000000;
+    }
+.extra-button {
+    margin-left: 40px;
+    display: inline-flex;
+    }
+.extra-button-inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(#FFFFFF,#FFFFFF), radial-gradient(circle at top left, #F29F05, #7BD2F5);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+    margin-left: 20px;
+    }
+.extra-button-inner .fa{
+    padding: 15px 0 0 5px; 
+    font-size: 20px;
+    cursor: pointer;
+    }
+.extra-picture {
+    width: 50%;
+    float: right;
+    }
+.extra-picture img {
+    max-width: auto;
+    max-height: 200px;
+    margin-top: 15px;
+    margin-left: 200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
